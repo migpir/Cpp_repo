@@ -29,7 +29,7 @@ int main() {
 	byte = 1;
 	std::cout << "Byte = "<< byte << endl; // prints the value of byte
 
-	byte =! 0x1;
+	byte=2;
 	std::cout << "Byte = "<< byte << endl; // prints the value of byte
 
 	byte =~ 0x2;
