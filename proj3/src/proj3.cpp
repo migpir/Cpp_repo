@@ -13,10 +13,42 @@
 
 using namespace std;
 
+class Fruit{
+
+};
+
+struct bits {
+
+	short int byte;
+};
+
+short int byte = 0;
+
 int main() {
-	std::cout << "!!!Hello World 1!!!" << endl; // prints !!!Hello World!!!
-	std::cout << "!!!Hello World 2!!!" << endl; // prints !!!Hello World!!!
-	std::cout << "!!!Hello World 3!!!" << endl; // prints !!!Hello World!!!
-	std::cout << "!!!Hello World 4!!!" << endl; // prints !!!Hello World!!!
+
+	byte = 1;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =! 0x1;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =~ 0x2;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =! 0x3;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =! 0x4;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =~ 0x5;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =! 0x6;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
+	byte =! 0x7;
+	std::cout << "Byte = "<< byte << endl; // prints the value of byte
+
 	return 0;
 }
