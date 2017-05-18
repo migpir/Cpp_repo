@@ -14,6 +14,8 @@
 using namespace std;
 
 int main() {
-	std::cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	std::cout << "!!!Hello World 1!!!" << endl; // prints !!!Hello World!!!
+	std::cout << "!!!Hello World 2!!!" << endl; // prints !!!Hello World!!!
+	std::cout << "!!!Hello World 3!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }
